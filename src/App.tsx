@@ -1,8 +1,26 @@
+import React from "react"
+import styled from "styled-components"
+import GlobalStyle from "./components/GlobalStyle"
+import Header from "./components/header"
+import Main from "./components/main"
+import Footer from "./components/footer"
+
+
+const AppEstilos = styled.div`
+
+`
+
+
+
 function App() {
   return (
-    <div>
-      <h1>App</h1>
-    </div>
+    <>
+      <GlobalStyle />
+      <AppEstilos/>
+      <Header />
+      <Main />
+      <Footer />
+    </>
   )
 }
 
